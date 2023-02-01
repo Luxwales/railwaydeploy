@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "npx nodemon server/app.js",
-    "start": "node /server/app.js"
+    "start": "node server/app.js"
   },
   "keywords": [],
   "author": "",
