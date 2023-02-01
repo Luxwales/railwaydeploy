@@ -1,0 +1,21 @@
+{
+  "name": "expressmysql",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npx nodemon server/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^5.0.0-beta.1",
+    "mysql2": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
