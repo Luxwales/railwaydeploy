@@ -1,7 +1,12 @@
 // USING EXPRESS 5.0 Beta - npm install "express@>=5.0.0-beta.1" --save
 import express from 'express'
+import path from 'path';
+import url from 'url';
 import { port } from './config/config.js'
 import { router } from './routes/routes.js'
+
+const __filename = url.fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express()
 
